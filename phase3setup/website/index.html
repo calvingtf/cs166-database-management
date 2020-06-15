@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="site.css">
+</head>
+
+<body>
+<h1>CS166 TicketMaster System</h1>
+<h2> Main Menu</h2>
+<form class="form">
+    <p class="menu">1. Add User</p>
+    <p class="menu">2. Add Booking</p>
+    <p class="menu">3. Add Movie Showing for an Existing Theater</p>
+    <p class="menu">4. Cancel Pending Bookings</p>
+    <p class="menu">5. Change Seats Reserved for a Booking</>
+    <p class="menu">6. Remove a Payment</p>
+    <p class="menu">7. Clear Cancelled Bookings</p>
+    <p class="menu">8. Remove Shows on a Given Date</p>
+    <p class="menu">9. List all Theaters in a Cinema Playing a Given Show</p>
+    <p class="menu">10. List all Shows that Start at a Given Time and Date </p>
+    <p class="menu">11. List Movie Titles Containing \"love\" Released After 2010</p>
+    <p class="menu">12. List the First Name, Last Name, and Email of Users with a Pending Booking</p>
+    <p class="menu">13. List the Title, Duration, Date, and Time of Shows Playing a Given Movie at a Given Cinema During a Date Range</p>
+    <p class="menu">14. List the Movie Title, Show Date & Start Time, Theater Name, and Cinema Seat Number for all Bookings of a Given User</p>
+    <p class="menu">15. EXIT</p>
+
+    <form action="/action_page.php" method="get">
+        <label for="option">Choose your option from the list:</label>
+        <input list="option" name="option" id="option">
+        <datalist id="option">
+            <option value="1. Add User">
+            <option value="2. Add Booking">
+            <option value="3. Add Movie Showing for an Existing Theater">
+            <option value="4. Cancel Pending Bookings">
+            <option value="5. Change Seats Reserved for a Booking">
+            <option value="6. Remove a Payment">
+            <option value="7. Clear Cancelled Bookings">
+            <option value="8. Remove Shows on a Given Date">
+            <option value="9. List all Theaters in a Cinema Playing a Given Show">
+            <option value="10. List all Shows that Start at a Given Time and Date">
+            <option value="11. List Movie Titles Containing -love- Released After 2010">
+            <option value="12. List the First Name, Last Name, and Email of Users with a Pending Booking">
+            <option value="13. List the Title, Duration, Date, and Time of Shows Playing a Given Movie at a Given Cinema During a Date Range">
+            <option value="14. List the Movie Title, Show Date & Start Time, Theater Name, and Cinema Seat Number for all Bookings of a Given User">
+            <option value="15. EXIT">
+        </datalist>
+        <input type="submit">
+    </form>
+
+
+
+
+</form>
+
+</body>
+
+</html>
